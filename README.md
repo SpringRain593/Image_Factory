@@ -12,6 +12,7 @@ python main.py
 ```
 
 ## 專案結構
+```Plaintext
 ImageFactory/
 ├── main.py                  # 啟動主程式
 ├── presets/                 # 儲存使用者流程設定
@@ -23,6 +24,11 @@ ImageFactory/
     ├── __init__.py
     ├── gui.py               # GUI 操作邏輯
     └── utils.py             # 處理函式（壓縮、旋轉、編碼）
+```
 
 ## 待改進
-因為當前功能有點多，未來可能會新增更多功能
+新增更多功能時優化操作版面
+新增功能：
+- 自動去背
+- 多個圖片組合成的 GIF 檔案
+- 多圖片共同轉檔
